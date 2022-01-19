@@ -51,14 +51,14 @@ function setup() {
  ground = createSprite(displayWidth-0,displayHeight-600,400,20);
  ground.addImage("ground",groundImage);
  ground.x = ground.width /2;
- console.log(ground.x);
-console.log(ground.y);
+// console.log(ground.x);
+// console.log(ground.y);
  
 
   trex = createSprite(displayWidth-1200,displayHeight-700,100,100);
   trex.addAnimation("running", trex_running);
-// console.log(trex.x);
-// console.log(trex.y);
+ console.log(trex.x);
+ console.log(trex.y);
   trex_collid = createSprite(trex.x,trex.y,100,100);
   trex_collid.scale=0.4
   trex_collid.addAnimation("collided", trex_collided);
