@@ -77,7 +77,7 @@ https://atharva-bhosale.github.io/Infinite-Pig-run/
   gameOver.scale = 0.5;
   restart.scale = 0.5;
   
-  invisibleGround = createSprite(200,displayHeight-590,400,10);
+  invisibleGround = createSprite(200,displayHeight-590,800,10);
   invisibleGround.visible = false;
   
   edge=createSprite(0,-50,2000,10);
