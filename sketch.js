@@ -55,7 +55,7 @@ function setup() {
 console.log(ground.y);
  
 
-  trex = createSprite(displayWidth-1200,displayHeight-1000,100,100);
+  trex = createSprite(displayWidth-1200,displayHeight-700,100,100);
   trex.addAnimation("running", trex_running);
 // console.log(trex.x);
 // console.log(trex.y);
