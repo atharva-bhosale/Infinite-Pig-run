@@ -55,7 +55,7 @@ function setup() {
 console.log(ground.y);
  
 
-  trex = createSprite(displayWidth-1200,displayHeight-600,100,100);
+  trex = createSprite(displayWidth-1200,displayHeight-1000,100,100);
   trex.addAnimation("running", trex_running);
 // console.log(trex.x);
 // console.log(trex.y);
@@ -203,7 +203,7 @@ score=0;
 
 function spawnObstacles(){
  if (frameCount % 60 === 0){
-   var obstacle = createSprite(600,displayHeight-620,10,40);
+   var obstacle = createSprite(600,displayHeight-1020,10,40);
    obstacle.velocityX = -(6 + score/100);
    
     //generate random obstacles
