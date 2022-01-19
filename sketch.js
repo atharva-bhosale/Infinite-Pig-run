@@ -48,14 +48,14 @@ function setup() {
  console.log(message)
 
  //ground = createSprite(200,180,400,20);
- ground = createSprite(displayWidth-0,displayHeight-500,400,20);
+ ground = createSprite(displayWidth-0,displayHeight-600,400,20);
  ground.addImage("ground",groundImage);
  ground.x = ground.width /2;
  console.log(ground.x);
 console.log(ground.y);
  
 
-  trex = createSprite(displayWidth-1200,displayHeight-500,100,100);
+  trex = createSprite(displayWidth-1200,displayHeight-600,100,100);
   trex.addAnimation("running", trex_running);
 // console.log(trex.x);
 // console.log(trex.y);
@@ -77,7 +77,7 @@ console.log(ground.y);
   gameOver.scale = 0.5;
   restart.scale = 0.5;
   
-  invisibleGround = createSprite(200,displayHeight-490,400,10);
+  invisibleGround = createSprite(200,displayHeight-590,400,10);
   invisibleGround.visible = false;
   
   edge=createSprite(0,-50,2000,10);
@@ -203,7 +203,7 @@ score=0;
 
 function spawnObstacles(){
  if (frameCount % 60 === 0){
-   var obstacle = createSprite(600,displayHeight-520,10,40);
+   var obstacle = createSprite(600,displayHeight-620,10,40);
    obstacle.velocityX = -(6 + score/100);
    
     //generate random obstacles
