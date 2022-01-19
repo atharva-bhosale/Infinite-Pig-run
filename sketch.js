@@ -99,7 +99,7 @@ function draw() {
   background(180);
   //displaying score
   text("Score: "+ score, 500,50);
-  
+    text("Score: "+ console.log(trex.y), 500,50);
   trex_collid.visible=false;
   trex.bounceOff(edge);
   
